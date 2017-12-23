@@ -7,7 +7,7 @@
             return a - b;
         });
         let count = 1;
-        for (let i = 0; i < array.length; i++) {
+        for (let i = 0; i < array.length-1; i++) {
             if (array[i] === array[i + 1]) {
                 count += 1;
                 if ((array[i] !== array[i + 2]) && (count > 1)) {
