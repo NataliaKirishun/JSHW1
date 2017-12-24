@@ -1,7 +1,7 @@
 (function () {
     'use strict';
     printDuplicateNumbers(1, 2, 5, 8, 7, 2, 1, 8, 12, 8, 8, 8, 8, 9, -5, 1, 8, -5, 12, 12, 12, -5, 0, 0, 0,125,856,125);
-    function printDuplicateNumbers(...args) {
+    function printDuplicateNumbers() {
         let array = [...arguments];
         array.sort(function (a, b) {
             return a - b;
